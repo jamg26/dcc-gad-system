@@ -1,5 +1,14 @@
-<?php 
-include 'styles.php';
-header('location: signin.php');
+<?php
+
+include 'navigation.php';
+$role = $_SESSION['user']['role'];
+
+
+
+if($role == 'captain') {
+	echo $role;
+} else {
+	header('location: /signin.php');
+}
 
 ?>

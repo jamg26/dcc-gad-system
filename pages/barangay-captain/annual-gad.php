@@ -1,8 +1,6 @@
 <?php
 include '../../styles.php';
 include '../../navigation.php';
-
-
 ?>
 
 <html>
@@ -19,8 +17,8 @@ include '../../navigation.php';
 
     </div>
     <div class="col-sm">
-    <p>Total Barangay Budget <input type="number" class="form-control"></p>
-    <p>Total GAD Project <input type="number" class="form-control"></p>
+    <p>Total Barangay Budget</p>
+    <p>Total GAD Project</p>
     </div>
   </div>
 </div>
@@ -61,10 +59,10 @@ include '../../navigation.php';
     </tr>
     <tr>
       <th><small>High incidence of diseases due to improper waste <br> management, 6 children 2-9 years old and 3 adult women <br> suffered from diarrhea during the last quarter of 2016.</small></th>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr class="bg-warning">
@@ -83,10 +81,10 @@ include '../../navigation.php';
     </tr>
     <tr>
       <th><small>Section 12 IRR Magna Carta of Women- <br> Establishment of VAW Desk</small></th>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th>Sub-Total A</th>
@@ -111,10 +109,10 @@ include '../../navigation.php';
     </tr>
     <tr>
       <th><small>Low or lack of awareness among barangay officials regar- <br> ding GAD & GAD-related laws</small></th>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     
     <tr class="bg-warning">
@@ -126,10 +124,10 @@ include '../../navigation.php';
     </tr>
     <tr>
       <th><small>Lack of readily available sex-disaggregated database <br> Statistics in the barangay that can be used in development <br> planning & other purposes</small></th>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th>Sub-Total B</th>
@@ -140,6 +138,7 @@ include '../../navigation.php';
     </tr>
   </tbody>
 </table>
-<button class="btn btn-primary float-right">Submit</button>
+<button class="btn btn-primary">Approve</button>
+<button class="btn btn-danger">Decline</button>
 </body>
 </html>
