@@ -9,7 +9,7 @@ include '../../navigation.php';
 <body>
 <div class="container">
   <center>
-    <h3>BARANGAY ANNUAL GENDER AND DEVELOPMENT (GAD) PLAN AND BUDGET <br> CY 2019</h3> <br>First Revision
+    <h3>BARANGAY ANNUAL GENDER AND DEVELOPMENT (GAD) ACCOMPLISHMENT REPORT <br> FOR CY 2018</h3>
   </center>
   <div class="row">
     <div class="col-sm">
@@ -29,19 +29,26 @@ include '../../navigation.php';
 </div>
 
 
-<table class="table table-striped table-dark table-bordered">
+<table class="table table-striped table-dark table-bordered table-sm">
   <thead>
     <tr>
       <th scope="col">Gender Issue or GAD Mandate</th>
       <th scope="col">GAD Program/Project/Activity(PPA)</th>
       <th scope="col">Performance Target and Indicator</th>
-      <th scope="col">GAD Budget</th>
-      <th scope="col">Responsible Person</th>
+      <th scope="col">Accomplishment</th>
+      <th scope="col">Approved GAD Budget</th>
+      <th scope="col">Actual Cost of GAD Expenditures</th>
+      <th scope="col">Variance or Remarks</th>
     </tr>
   </thead>
   <tbody>
   <tr>
-      <th scope="row">1. Update on GAD concepts & Gender Sensitive Procedure</th>
+      <th scope="row">1. Lack of awareness on the concepts of
+        Gender Concepts and Development as well
+        as women's rights and empowerment info
+        on Gender Sensitive procedures.</th>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -54,6 +61,8 @@ include '../../navigation.php';
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">3. Need to popularize gender-related advocacies and/or celebrations and mandate of RA9710 or Magna Carta</th>
@@ -61,44 +70,33 @@ include '../../navigation.php';
       <td></td>
       <td></td>
       <td></td>
-    </tr>
-    <tr>
-      <th>4. Basic Health Services needed for the Barangay residents especially the mothers</th>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th>5. Gender Discrimination update</th>
+      <th>4. Purchased of Aircon</th>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th>6.Climate Change Adaptation and its impact</th>
+      <th>5. No waiting area for the mothers during
+            immunization and prenatal Binugao Health
+            Center</th>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th>7. Need to purchase equipments for the Binugao Health Center waiting area.</th>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <th>8. Identify issues & concern of womens' and evaluation of 1 year accomplishment of GAD</th>
+      <th>Sub Total A</th>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th>9. Need to ensure safety of pregnant women and children</th>
       <td></td>
       <td></td>
       <td></td>
@@ -106,7 +104,6 @@ include '../../navigation.php';
     </tr>
   </tbody>
 </table>
-<button class="btn btn-primary float-right">Accept</button>
-<button class="btn btn-danger float-right">Decline</button>
+<button class="btn btn-primary float-right">Checked</button>
 </body>
 </html>

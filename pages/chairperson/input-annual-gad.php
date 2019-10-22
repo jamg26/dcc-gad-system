@@ -8,6 +8,9 @@ include '../../navigation.php';
 <html>
 <body>
 <div class="container">
+  <center>
+    <h3>BARANGAY ANNUAL GENDER AND DEVELOPMENT (GAD) PLAN AND BUDGET <br> CY 2019</h3> <br>First Revision
+  </center>
   <div class="row">
     <div class="col-sm">
       <p>Region: XI</p> 
@@ -26,7 +29,7 @@ include '../../navigation.php';
 </div>
 
 
-<table class="table table-striped table-dark table-bordered table-sm">
+<table class="table table-striped table-dark table-bordered">
   <thead>
     <tr>
       <th scope="col">Gender Issue or GAD Mandate</th>
@@ -38,105 +41,68 @@ include '../../navigation.php';
   </thead>
   <tbody>
   <tr>
-      <th scope="row">CLIENT FOCUSED</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-
-    <tr class="bg-primary">
-      <th scope="row"><small><b>1. Gender Issues</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"><small><b>Solid Waste Management Program</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th><small>High incidence of diseases due to improper waste <br> management, 6 children 2-9 years old and 3 adult women <br> suffered from diarrhea during the last quarter of 2016.</small></th>
+      <th scope="row">1. Update on GAD concepts & Gender Sensitive Procedure</th>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
     </tr>
 
-    <tr class="bg-warning">
-      <th scope="row"><small><b>2. GAD Mandate</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
     <tr>
-      <th scope="row"><small><b>Solid Waste Management Program</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th><small>Section 12 IRR Magna Carta of Women- <br> Establishment of VAW Desk</small></th>
+      <th scope="row">2. Lack of information on the responsibilities of the parents and children's rights law (RA7610)</th>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
     </tr>
     <tr>
-      <th>Sub-Total A</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th>ORGANIZATION-FOCUSED</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr class="bg-primary">
-      <th scope="row"><small><b>1. Gender Issues</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th><small>Low or lack of awareness among barangay officials regar- <br> ding GAD & GAD-related laws</small></th>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-      <td><textarea type="text" class="form-control"></textarea></td>
-    </tr>
-    
-    <tr class="bg-warning">
-      <th scope="row"><small><b>2. GAD Mandate</b></small></th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th><small>Lack of readily available sex-disaggregated database <br> Statistics in the barangay that can be used in development <br> planning & other purposes</small></th>
+      <th scope="row">3. Need to popularize gender-related advocacies and/or celebrations and mandate of RA9710 or Magna Carta</th>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
       <td><textarea type="text" class="form-control"></textarea></td>
     </tr>
     <tr>
-      <th>Sub-Total B</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>4. Basic Health Services needed for the Barangay residents especially the mothers</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th>5. Gender Discrimination update</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th>6.Climate Change Adaptation and its impact</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th>7. Need to purchase equipments for the Binugao Health Center waiting area.</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th>8. Identify issues & concern of womens' and evaluation of 1 year accomplishment of GAD</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th>9. Need to ensure safety of pregnant women and children</th>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
+      <td><textarea type="text" class="form-control"></textarea></td>
     </tr>
   </tbody>
 </table>

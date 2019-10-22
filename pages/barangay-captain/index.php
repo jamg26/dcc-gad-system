@@ -8,8 +8,48 @@ include '../../navigation.php';
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <a href="annual-gad.php">GAD VIEWER</a>
       <a href="scheduler.php">SCHEDULER</a>
+
+      
+      <h2>GAD Plan and Budget</h2>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Year</th>
+            <th scope="col">Chairperson</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">December 31</td>
+            <td>2019</td>
+            <td>Juan Dela Cruz</td>
+            <td><button class="btn btn-success btn-sm" onclick="window.location.href='annual-gad.php'">View</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Accomplishment Report</h2>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Year</th>
+            <th scope="col">Chairperson</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">December 31</td>
+            <td>2019</td>
+            <td>Juan Dela Cruz</td>
+            <td><button class="btn btn-success btn-sm" onclick="window.location.href='accomplishment-report.php'">View</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+
 
     </div>
     <div class="col-sm">
