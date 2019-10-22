@@ -14,7 +14,7 @@ include 'styles.php';
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/logout.php">Logout</a>
+        <a class="nav-link" href="/signout.php">Logout</a>
       </li>
     </ul>
   </div>
