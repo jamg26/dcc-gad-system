@@ -8,27 +8,27 @@ include '../../navigation.php';
 <div class="container">
   <div class="row">
     <div class="col-sm">
-        <form action="./requests/add-schedule.php" method="post">
+        <form action="/requests/schedule/add.php" method="post">
             <div class="form-group">
                 <label>Title</label>
-                <input type="text" class="form-control" placeholder="Title">
+                <input name="title" type="text" class="form-control" placeholder="Title">
             </div>
             <div class="form-group">
                 <label>Description</label>
-                <textarea class="form-control" name="" id="" cols="30" rows="5"></textarea>
+                <textarea name="description" class="form-control" name="" id="" cols="30" rows="5"></textarea>
             </div>
             <div class="form-group">
                 <label>Deadline</label>
-                <input type="month" class="form-control" placeholder="Title">
+                <input name="deadline" type="date" class="form-control" placeholder="Title">
             </div>
             <div class="form-group">
                 <label>Assigned Staff</label>
-                <select name="" id="" class="form-control">
-                    <option value=""></option>
-                    <option value="">Juan Dela Cruz</option>
-                    <option value="">John Cena</option>
-                    <option value="">Misty Kris</option>
-                    <option value="">Tipsy Bitsy</option>
+                <select name="staff" id="" class="form-control">
+                    <option></option>
+                    <option>Juan Dela Cruz</option>
+                    <option>John Cena</option>
+                    <option>Misty Kris</option>
+                    <option>Tipsy Bitsy</option>
                 </select>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>

@@ -1,6 +1,7 @@
 <?php
 include '../../styles.php';
 include '../../navigation.php';
+include '../../db.php';
 ?>
 
 <html>
@@ -8,7 +9,6 @@ include '../../navigation.php';
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <a href="scheduler.php">SCHEDULER</a>
 
       
       <h2>GAD Plan and Budget</h2>
@@ -63,27 +63,27 @@ include '../../navigation.php';
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">2293</th>
-            <td>Mark</td>
-            <td>October 22 2019</td>
-            <td>Juan Dela Cruz</td>
-            <td><button class="btn btn-success btn-sm">View</button></td>
-          </tr>
-          <tr>
-            <th scope="row">2294</th>
-            <td>Mark</td>
-            <td>October 22 2019</td>
-            <td>Juan Dela Cruz</td>
-            <td><button class="btn btn-success btn-sm">View</button></td>
-          </tr>
-          <tr>
-            <th scope="row">2295</th>
-            <td>Mark</td>
-            <td>October 22 2019</td>
-            <td>Juan Dela Cruz</td>
-            <td><button class="btn btn-success btn-sm">View</button></td>
-          </tr>
+        <?php
+          $sql = "select * from schedule";
+          $result = $conn->query($sql);
+          if ($result->num_rows > 0) {
+              while ($row = $result->fetch_assoc()) {
+                  ?>
+                <tr>
+                  <th scope="row"><?php echo $row['id'] ?></th>
+                  <td><?php echo $row['title'] ?></td>
+                  <td><?php echo $row['deadline'] ?></td>
+                  <td><?php echo $row['assigned_staff'] ?></td>
+                  <form action="./viewer/schedule.php" method="get">
+                    <input type="text" name="id" value="<?php echo $row['id'] ?>" hidden>
+                    <input type="text" name="title" value="<?php echo $row['title'] ?>" hidden>
+                    <input type="text" name="description" value="<?php echo $row['description'] ?>" hidden>
+                    <input type="text" name="deadline" value="<?php echo $row['deadline'] ?>" hidden>
+                    <input type="text" name="assigned_staff" value="<?php echo $row['assigned_staff'] ?>" hidden>
+                    <td><button class="btn btn-success btn-sm">View</button></td>
+                  </form>
+                </tr>
+            <?php } }?>
         </tbody>
       </table>
     </div>
